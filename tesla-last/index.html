@@ -11,6 +11,7 @@
     
     <center>
         <div class="car-div">
+            <div class="door"></div>
             <img class="car" src="./assets/img/image 1.png" alt="">
             <div class="container">
                 <img class="wheel1" src="./assets/img/wheel.png" alt="">
@@ -24,7 +25,7 @@
     <div class="wrapper">
         <div class="text-container">
             <h2>Запас хода</h2>
-            <p>750км</p>
+            <p id="buttery">600km</p>
         </div>
 
         <div class="text-container">
@@ -44,11 +45,11 @@
     <div class="wrapper">
         <div class="text-container">
             <h2>Скорость автомобиля</h2>
-            <p>60km/h</p>
+            <p id="speed">60km/h</p>
         </div>
-        <div class="img-container">
-            <img src="./assets/icons/image 3.png" alt="">
-            <img src="./assets/icons/image 4.png" alt="">
+        <div class="speed">
+            <img  src="./assets/icons/image 3.png" alt="">
+            <img  src="./assets/icons/image 4.png" alt="">
         </div>
 
         <div class="text-container">
@@ -62,7 +63,7 @@
 
         <div class="text-container">
             <h2>Диски</h2>
-            <p class="wheel-text">80</p>
+            <p class="wheel-text">19</p>
         </div>
         <div class="wheels">
             <img src="./assets/icons/image 3.png" alt="">
@@ -80,7 +81,7 @@
         <div class="text-container">
             <h2>Версия Long Range</h2>
             <div class="toggle-container">
-                <input name="toggle2" type="checkbox" id="toggle2">
+                <input class="toggle2 name="toggle2" type="checkbox" id="toggle2">
                 <label for="toggle2"></label>
             </div>
         </div>
@@ -91,12 +92,51 @@
                 <input name="toggle3" type="checkbox" id="toggle3">
                 <label for="toggle3"></label>
             </div>
-        </div>
-
-        
+        </div>     
     </div>
+    
 
     </center>
+
+    <div class="big_container">
+        <div class="containerTwo">
+            <div class="top">
+                <img src="./assets/img/image 1 (1).png" alt="" class="into">
+            </div>
+           <div class="flexing">
+            <div class="middle">
+                <div class="compund">
+                    <div class="left">
+                        <span class="zps">Запас хода</span>
+                        <h1 class="km">750км</h1>
+                    </div>
+                    <div class="right">
+                        <span class="prc">Цена</span>
+                        <h1 class="price">$89,990</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bottom_side">
+                <div class="left_side">
+                    <span class="color_span">Цвет салона</span>
+                    <div class="colors">
+                        <div class="btns" data-color="black"></div>
+                        <div class="btns" data-color="white"></div>
+                        <div class="btns" data-color="brown"></div>
+                    </div>
+                </div>
+                <div class="right_side">
+                    <span class="look">Вид автомобиля</span>
+                        <div class="toggle-container">
+                            <input class="toggle4" name="toggle4" type="checkbox" id="toggle4">
+                            <label for="toggle4"></label>
+                        </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
